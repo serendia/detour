@@ -1,6 +1,7 @@
 var showPurpose = true; // use showPurpose = true to show "Divine Purpose" number
 var myNumbers = {};
 var dest, char;
+
 const meaning = {
 	"master": "Número Mestre",
 	"destiny": {
