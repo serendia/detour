@@ -1,0 +1,291 @@
+.desc {
+	display: inline-block;
+	margin: 10px 0 20px;
+}
+
+.grey {
+	color: gray;
+}
+
+.calc {
+	display: block;
+	margin: 10px 0;
+}
+
+.calc > div {
+	color: #0091ea;
+	margin: 5px 0;
+}
+
+.calc > .meaning {
+	margin: 15px 0 20px -10px;
+	color: #1a1a1a;
+	border-left: none;
+	min-height: 50px;
+}
+
+.meaning {
+	position: relative;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.meaning > div {
+	padding: 7px 0 0 90px;
+}
+
+.meaning > .num {
+	position: absolute;
+	top: 0;
+	left: 10px;
+	font-size: 32px;
+	border-width: 6px;
+	line-height: 42px;
+	height: 64px;
+	width: 64px;
+	padding: 5px;
+	margin-right: 10px;
+	text-align: center;
+}
+
+.num {
+	display: inline-block;
+	border: 4px solid grey;
+	background-color: white;
+	line-height: 24px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	border-radius: 50%;
+}
+
+.fl {
+	float: left;
+	margin: 10px 30px;
+}
+
+.fl > a {
+	border-bottom: none;
+}
+
+.fl img {
+	border-radius: 10px;
+}
+
+.clearer {
+	clear: both;
+	height: 0;
+	width: 0;
+}
+
+.artnum {
+	border-left: 10px solid grey;
+}
+
+.c1,
+.c10,
+.c19,
+.c28 {
+	border-color: #f44336 !important;
+}
+
+.c2,
+.c20 {
+	border-color: #ff9800 !important;
+}
+
+.c3,
+.c12,
+.c21,
+.c30 {
+	border-color: #ffeb3b !important;
+}
+
+.c4,
+.c13,
+.c31 {
+	border-color: #4caf50 !important;
+}
+
+.c5,
+.c14,
+.c23 {
+	border-color: #48d1cc !important;
+}
+
+.c6,
+.c15,
+.c24 {
+	border-color: #2196f3 !important;
+}
+
+.c7,
+.c16,
+.c25 {
+	border-color: #6a0dad !important;
+}
+
+.c8,
+.c17,
+.c26 {
+	border-color: #d000d0 !important;
+}
+
+.c9,
+.c18,
+.c27 {
+	border-color: #ffc107 !important;
+}
+
+.c11,
+.c29 {
+	border-color: #9c27b0 !important;
+}
+
+.c22 {
+	border-color: #3f51b5 !important;
+}
+
+.k1,
+.k10,
+.k19,
+.k28 {
+	border-bottom-color: #f44336 !important;
+}
+
+.k2,
+.k20 {
+	border-bottom-color: #ff9800 !important;
+}
+
+.k3,
+.k12,
+.k21,
+.k30 {
+	border-bottom-color: #ffeb3b !important;
+}
+
+.k4,
+.k13,
+.k31 {
+	border-bottom-color: #4caf50 !important;
+}
+
+.k5,
+.k14,
+.k23 {
+	border-bottom-color: #48d1cc !important;
+}
+
+.k6,
+.k15,
+.k24 {
+	border-bottom-color: #2196f3 !important;
+}
+
+.k7,
+.k16,
+.k25 {
+	border-bottom-color: #6a0dad !important;
+}
+
+.k8,
+.k17,
+.k26 {
+	border-bottom-color: #d000d0 !important;
+}
+
+.k9,
+.k18,
+.k27 {
+	border-bottom-color: #ffc107 !important;
+}
+
+.k11,
+.k29 {
+	border-bottom-color: #9c27b0 !important;
+}
+
+.k22 {
+	border-bottom-color: #3f51b5 !important;
+}
+
+#star-holder {
+	z-index: 200;
+	padding: 20px;
+	left: -70px;
+	top: -60px;
+	position: absolute;
+	height: 240px;
+	width: 240px;
+}
+
+#star-holder .num {
+	position: absolute;
+	padding: 4px;
+}
+
+#star-holder .num > span {
+	display: block;
+	opacity: 0;
+	position: relative;
+	top: 17px;
+	left: -34px;
+	width: 100px;
+	z-index: 100;
+	font-size: 0.9rem;
+	transition: opacity 0.3s ease 0.1s;
+}
+
+#star-holder .num:hover > span {
+	opacity: 1;
+}
+
+#star-holder .character {
+	top: 0px;
+	left: 95px;
+}
+
+#star-holder .soul {
+	top: 66px;
+	left: 9px;
+}
+
+#star-holder .agenda {
+	top: 65px;
+	left: 179px;
+}
+
+#star-holder .attitude {
+	top: 158px;
+	left: 144px;
+}
+
+#star-holder .personality {
+	top: 158px;
+	left: 44px;
+}
+
+#star-holder .destiny {
+	top: 88px;
+	left: 95px;
+}
+
+#star-holder .purpose {
+	display: none;
+}
+
+#star-holder .character > span {
+	left: 12px;
+	top: 0;
+}
+
+#star-holder .destiny > span {
+	left: 28px;
+	top: 0;
+}
+
+#star-holder .agenda > span {
+	top: 22px;
+	left: -28px;
+}
